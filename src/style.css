@@ -256,7 +256,6 @@ button {
     place-items: center;
     border-bottom:0.1px solid var(--clr-neutral-3);
     border-right:0.1px solid var(--clr-neutral-3);
-
 }
 .project:nth-child(3n+3) {
     border-right: 0.1px solid var(--clr-neutral-3);
@@ -381,6 +380,15 @@ media queries
         transition: all .2s linear;
     
     } 
+
+    .project{
+            aspect-ratio: unset;
+           
+    }
+    .projects-container {
+        grid-auto-rows: 30rem;
+    }
+    
     .project-header {
         position:absolute;
         top:1rem;
