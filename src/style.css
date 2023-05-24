@@ -44,7 +44,7 @@ img {
 
 
 .container {
-    margin-top: 10rem;
+    margin-top: 5rem;
     max-width: 100.24rem;
 
 }
@@ -153,6 +153,11 @@ img {
     align-items: stretch;
     gap:0.5rem;
 }
+
+a:active, a:visited {
+    background-color: var(--clr-neutral-3);
+}
+
 .message-button {
     background-color: var(--clr-neutral-1);
     color: var(--clr-primary-1);
@@ -183,9 +188,7 @@ button {
     cursor: pointer;
 }
 
-:where(.message-button, .call-button, button):hover{
-    background-color: var(--clr-neutral-3);
-}
+
 
 .icon.caret{
     font-size: 1.5rem;
@@ -227,16 +230,13 @@ button {
 
 } 
 
-.social-media-list *:hover {
-    color: var(--clr-neutral-3);
-    transform: translateY(-3px);
-} 
 
 .project-section {
     margin-top: 1rem;
     text-align: left;
     color: var(--clr-neutral-1);
 }
+
 
 .projects-container {
     margin-top: 1rem;

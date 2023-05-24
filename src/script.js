@@ -1,5 +1,5 @@
 function tweetQuote() {
-    let text ="Css is awesome =))"
+    let text ="'Css is awesome =))'"
     const twitterUrl = `https://twitter.com/intent/tweet?text=${text} - Tony`;
 
     window.open(twitterUrl, "_blank");
