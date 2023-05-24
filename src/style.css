@@ -242,7 +242,9 @@ button {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border:0.1px solid var(--clr-neutral-3);
+    border-top:0.1px solid var(--clr-neutral-3);
+    border-left:0.1px solid var(--clr-neutral-3);
+
 
 }
 
@@ -257,7 +259,7 @@ button {
 
 }
 .project:nth-child(3n+3) {
-    border-right: none;
+    border-right: 0.1px solid var(--clr-neutral-3);
 }
 
 
