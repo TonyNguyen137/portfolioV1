@@ -10,5 +10,3 @@ let twitterIcons = document.querySelectorAll(".twitterButton");
 twitterIcons.forEach( e => {
     e.addEventListener("click", tweetQuote);
 })
-
-console.log("Welcome to branch");
