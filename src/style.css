@@ -65,6 +65,9 @@ a {
     text-decoration: none;
     color: var(--clr-neutral-2);
 }
+.h-2 {
+    text-align: center;
+}
 
 .twitterButton {
     cursor: pointer;
@@ -244,9 +247,9 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     border-top:0.1px solid var(--clr-neutral-3);
     border-left:0.1px solid var(--clr-neutral-3);
-
-
 }
+
+
 
 .project{
     aspect-ratio: 1 / 1.1;
